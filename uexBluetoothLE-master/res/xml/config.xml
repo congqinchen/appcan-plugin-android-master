@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        className="org.zywx.wbpalmstar.plugin.uexbluetoothle.EUExBluetoothLE"
+        uexName="uexBluetoothLE">
+        <method name="init"/>
+        <method
+            name="connect"
+            type="1"/>
+        <method name="connectPrinter"/>
+        <method name="disconnect"/>
+        <method name="scanDevice"/>
+        <method name="stopScanDevice"/>
+        <method
+            name="onLeScan"
+            type="2"/>
+        <method
+            name="onConnectionStateChange"
+            type="2"/>
+        <method
+            name="onServicesDiscovered"
+            type="2"/>
+        <method
+            name="onCharacteristicRead"
+            type="2"/>
+        <method
+            name="onCharacteristicChanged"
+            type="2"/>
+        <method
+            name="onCharacteristicWrite"
+            type="2"/>
+        <method name="writeCharacteristic"/>
+        <method name="printByJson"/>
+        <method name="getBondedDevices"/>
+        <method name="readCharacteristic"/>
+        <method
+            name="searchForCharacteristic"
+            type="1"/>
+        <method
+            name="searchForDescriptor"
+            type="1"/>
+        <method
+            name="readDescriptor"
+            type="1"/>
+        <method
+            name="writeDescriptor"
+            type="1"/>
+    </plugin>
+</uexplugins>

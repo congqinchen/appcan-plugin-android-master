@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin uexName="uexBluetoothLE" version="4.1.2" build="1">
+        <info>1:新增了connectPrinter方法和相应回调</info>
+        <info>2:新增了printByJson方法</info>
+        <info>3:新增了getBondedDevices及回调方法</info>
+        <build>0:4.0</build>
+    </plugin>
+</uexplugins>
